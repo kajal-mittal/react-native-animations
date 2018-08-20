@@ -9,10 +9,30 @@ import RotateAnimation from './components/RotateAnimation';
 import { StackNavigator } from 'react-navigation';
 
 const AppFlow = StackNavigator({
-	App: { screen: App },
-	RotateAnimation: { screen: RotateAnimation },
-	ScaleAnimation: { screen: ScaleAnimation },
-	PanResponderScene: { screen: PanResponderScene }
+	App: {
+		screen: App,
+		navigationOptions: {
+			title: 'RNAnimation'
+		}
+	},
+	RotateAnimation: {
+		screen: RotateAnimation,
+		navigationOptions: {
+			title: 'RotateAnimation'
+		}
+	},
+	ScaleAnimation: {
+		screen: ScaleAnimation,
+		navigationOptions: {
+			title: 'ScaleAnimation'
+		}
+	},
+	PanResponderScene: {
+		screen: PanResponderScene,
+		navigationOptions: {
+			title: 'PanResponder'
+		}
+	}
 });
 
 export default class FirstScene extends PureComponent {
