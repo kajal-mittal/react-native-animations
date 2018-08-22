@@ -8,9 +8,9 @@ npm install
 react-native run-ios
 react-native run-android
 ```
-##Animations
+## Animations
 1. ScaleAnimation
 2. RotateAnimation
 3. PanResponder
 
-###ScaleAnimation
+### ScaleAnimation
