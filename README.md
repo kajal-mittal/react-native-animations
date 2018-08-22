@@ -13,4 +13,5 @@ react-native run-android
 2. RotateAnimation
 3. PanResponder
 
-### ScaleAnimation
+
+
